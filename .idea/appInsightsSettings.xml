@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.huatafac.sosprof" />
-                  <option name="mobileSdkAppId" value="1:847822357424:android:8bc46c4220b4ea0bdb0c75" />
-                  <option name="projectId" value="sosprof-c437f" />
-                  <option name="projectNumber" value="847822357424" />
+                  <option name="appId" value="com.huatafac.boys2rent" />
+                  <option name="mobileSdkAppId" value="1:641807276210:android:8dd30ea13174ef4f3951ab" />
+                  <option name="projectId" value="boys2rent" />
+                  <option name="projectNumber" value="641807276210" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

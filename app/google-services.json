@@ -1,31 +1,37 @@
 {
   "project_info": {
-    "project_number": "847822357424",
-    "project_id": "sosprof-c437f",
-    "storage_bucket": "sosprof-c437f.firebasestorage.app"
+    "project_number": "641807276210",
+    "firebase_url": "https://boys2rent-default-rtdb.firebaseio.com",
+    "project_id": "boys2rent",
+    "storage_bucket": "boys2rent.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:847822357424:android:8bc46c4220b4ea0bdb0c75",
+        "mobilesdk_app_id": "1:641807276210:android:8dd30ea13174ef4f3951ab",
         "android_client_info": {
-          "package_name": "com.huatafac.sosprof"
+          "package_name": "com.huatafac.boys2rent"
         }
       },
       "oauth_client": [
         {
-          "client_id": "847822357424-1ac9o0rf924ednu2ss9kg1dnl91qaaui.apps.googleusercontent.com",
+          "client_id": "641807276210-9ed90t5476qig3j5grm4egsdh30p1hes.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyALpmNNPCkZerqht6mNfvAdwUG7tu6Y8gU"
+          "current_key": "AIzaSyBnDag5KVXJMJom8B0AKDExDJVak7VUOPQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641807276210-9ed90t5476qig3j5grm4egsdh30p1hes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

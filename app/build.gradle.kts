@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.huatafac.sosprof"
+        applicationId = "com.huatafac.boys2rent"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
