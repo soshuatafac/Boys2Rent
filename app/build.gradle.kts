@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.huatafac.sosprof"
+    namespace = "com.huatafac.boys2rent"
     compileSdk {
         version = release(37)
     }
