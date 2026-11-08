@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "641807276210-amv6ad33hmdu4hti3cc91oe9r6riep5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.huatafac.boys2rent",
+            "certificate_hash": "aa42ef38a73f57908f1728e999459758bfa570e4"
+          }
+        },
+        {
           "client_id": "641807276210-9ed90t5476qig3j5grm4egsdh30p1hes.apps.googleusercontent.com",
           "client_type": 3
         }
