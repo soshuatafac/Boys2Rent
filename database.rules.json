@@ -1,0 +1,31 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid && auth.token.email_verified === true"
+      }
+    },
+    "fotos": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid && auth.token.email_verified === true",
+        "perfil": {
+          ".validate": "newData.hasChildren(['jpeg', 'atualizada']) && newData.child('jpeg').isString() && newData.child('jpeg').val().length < 700000 && newData.child('atualizada').isNumber()"
+        },
+        "alunos": {
+          "$turmaId": {
+            "$numero": {
+              ".validate": "newData.hasChildren(['jpeg', 'atualizada']) && newData.child('jpeg').isString() && newData.child('jpeg').val().length < 700000 && newData.child('atualizada').isNumber()"
+            }
+          }
+        },
+        "$outro": {
+          ".validate": false
+        }
+      }
+    }
+  }
+}

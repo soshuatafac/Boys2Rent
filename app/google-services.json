@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "847822357424",
+    "project_id": "sosprof-c437f",
+    "storage_bucket": "sosprof-c437f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847822357424:android:8bc46c4220b4ea0bdb0c75",
+        "android_client_info": {
+          "package_name": "com.huatafac.sosprof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847822357424-1ac9o0rf924ednu2ss9kg1dnl91qaaui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALpmNNPCkZerqht6mNfvAdwUG7tu6Y8gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
